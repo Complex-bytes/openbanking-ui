@@ -2,6 +2,18 @@ import createRequest from './request'
 import { setData } from '../actions/app'
 import { setAccountId } from '../actions/account'
 
+//All accounts & transaction api's
+export function getAllAccountsCreditDebit(dispatch) {
+    createRequest(dispatch, '/aisp/accounts-transactions', 'GET', null, {}, function (
+        response
+    ) {
+        //callback placeholder where one or multiple actions can be dispatched
+        dispatch(setData(response))
+        
+    })
+}
+
+
 //accounts api's
 export function getAccountList(dispatch) {
     createRequest(dispatch, '/aisp/accounts', 'GET', null, {}, function (

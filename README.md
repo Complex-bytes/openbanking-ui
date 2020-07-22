@@ -1,5 +1,8 @@
 openbanking-ui
 ==============
+<Changes by Complex Byte team - Start>
+	Only AISP is used.
+<Changes by Complex Byte team - End>
 
 A collection AISP and PISP APIs.
 
@@ -53,7 +56,7 @@ This will stub the rest api calls and return the mock response.
 
 #### Connecting with sdk
 
-Download and setup the sdk code from the [url](https://github.com/HashApithon/openbanking-java-sdk)
+Download and setup the sdk code from the [url](""""""""""""""""""""""""""""""""""")
 
 ### Getting familiar with open banking related terms
 

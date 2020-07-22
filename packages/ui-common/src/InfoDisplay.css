@@ -15,3 +15,11 @@
     margin-bottom: 30px;
     text-align: center;
 }
+
+.tableBgColor
+{   background-color: #ddd; }
+
+.rowBgColor
+{   background-color: rgba(185, 147, 103, 0.247); }
+
+

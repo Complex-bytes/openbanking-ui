@@ -26,7 +26,7 @@ const Dashboard = () => {
                 <div className="row">
                     <div className="col-sm">
                         <div className="text">
-                            <h3>Open Banking</h3>
+                            <h3></h3>
                         </div>
                     </div>
                 </div>
@@ -37,14 +37,10 @@ const Dashboard = () => {
                                 className="journeyBtn"
                                 onClick={() => setType('aisp')}
                             >
-                                Account Information Service Provider (AISP)
+                                <h3>Provide Consent</h3>
+                                <p>Note: This is to access your account and transaction information</p>
                             </button>
-                            <button
-                                className="journeyBtn"
-                                // to do 
-                            >
-                                Payment Initiation Service Provider (PISP)
-                            </button>
+                            
                         </div>
                     </div>
                 </div>
